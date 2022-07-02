@@ -1,0 +1,22 @@
+.KALASH{
+    margin-top: 200px;
+    margin-left: 150px;
+
+}
+h1{
+    font-size: 35px;
+    color: brown;
+    font-family: sans-serif;
+}
+h2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 50px;
+}
+p{
+    font-size: 25px;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
