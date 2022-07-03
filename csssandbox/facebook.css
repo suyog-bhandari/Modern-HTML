@@ -1,8 +1,11 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    background-color: 	#dfe3ee;
-}
+body{
+    background-image : url("./movie1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+  
+    background-size: contain;
+  }
+
 .textbox{
     margin-top: 200px;
     margin-left: 150px;
@@ -50,18 +53,18 @@ margin-right: -10px;
     width: 332px;
 
 }
-button{
+ button{
     margin-top: 15px;
     background-color:#1877f2 ;
     padding: 16px;
     width: 100%;
     border-radius: 8px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: sans-serif;
     font-size: 18px;
 
 
-}
+} 
 p{
     background-color: white;
     font-size: 16px;
@@ -79,7 +82,12 @@ p a{
    margin-left: 60px;
    margin-right: 60px;
 }
-.btn button{
+/* .btn button{
     background-color:#1b9c24 ;
-   
+    }   
+    */
+
+.gg{
+    background-color: white;
+    border-radius: 20%;
 }
