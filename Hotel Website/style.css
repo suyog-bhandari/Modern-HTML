@@ -31,6 +31,39 @@ p{
     padding: 0 20px;
 }
 
+.text-primary{
+    
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    background: #69d5a2;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background:#499571;
+    color:whitesmoke ;
+}
+
+.btn-light
+{
+    background: ;
+    color: ;
+}
+
+/* Padding */
+.py-1{padding: 10px 0;
+}
+.
 /* Navbar */
 #navbar{
     background: #333;
@@ -85,4 +118,100 @@ p{
 #showcase .showcase-content h1{
     font-size: 60px;
     line-height:1.2em ;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info{
+    height: 400px;
+
+}
+
+#home-info .info-img{
+
+    float:left;
+    width: 50%;
+    background: url('./hotel\ pool.jpeg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align:center ;
+    padding: 40px 30px;
+    overflow: hidden;
+    background-color: #eff0ef;
+}
+
+#home-info .info-content p{
+    padding-bottom: 30px;
+    text-align: justify;
+    background-color: #eff0ef;
+}
+
+.box h3{
+width: 18%;
+padding: 10px;
+color: ;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33%;
+    padding: 50px;
+ 
+}
+.box h3{
+    height: auto;
+    width: auto;
+    color:black;
+    text-align: justify;
+}
+
+.bg-primary{
+
+    background-color: #eff0ef;
+}
+
+.info-content{
+    background-color: #eff0ef;
+
+}
+
+/* Footer */
+#main-footer{
+    text-align: center;
+    color:black;
+    background-color:;
+}
+
+.box bg-light{
+    background-color:;
+}
+
+/* About INfo */
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img{
+    width: 50%;
+    display: block;
+    margin: auto;
+
 }
