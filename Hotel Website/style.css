@@ -57,16 +57,30 @@ p{
 .btn-light
 {
     background: ;
-    color: ;
+    color:;
+}
+
+.l-heading{
+    font-size: 40px;
+}
+
+.clr{
+    clear: both;
 }
 
 /* Padding */
-.py-1{padding: 10px 0;
-}
-.
+ .py-1{
+    padding: 10px 0px;
+ }
+ .py-2{
+    padding: 10px 0px;
+ }
+ .py-3{
+    padding: 10px 0px;
+ }
 /* Navbar */
 #navbar{
-    background: #333;
+    background:  #333;
     color: #fff;
     overflow: auto;
 }
@@ -213,5 +227,6 @@ color: ;
     width: 50%;
     display: block;
     margin: auto;
+    border-radius: 50%;
 
 }
