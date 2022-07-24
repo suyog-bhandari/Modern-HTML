@@ -160,7 +160,7 @@ p{
     text-align:center ;
     padding: 40px 30px;
     overflow: hidden;
-    background-color: #eff0ef;
+    background-color:rgba(0,0,0,0.4);
 }
 
 #home-info .info-content p{
@@ -228,5 +228,6 @@ color: ;
     display: block;
     margin: auto;
     border-radius: 50%;
+    background-color:rgba(0,0,0,0.4);
 
 }
