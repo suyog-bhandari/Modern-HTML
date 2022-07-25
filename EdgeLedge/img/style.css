@@ -19,6 +19,17 @@ p{
 }
 
 /* Utility Classes */
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center{
+    text-align: center;
+}
+
 .text-primary{
     color: #93cb52;
 }
@@ -28,10 +39,25 @@ p{
     margin-bottom: 0.75rem;
     line-height: 1.1;
 }
+.m-heading{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
 
 .lead{
     font-size: 1.3rem;
     margin-bottom: 2rem;
+}
+
+.py-1{
+    padding: 1.5rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.py-1{
+    padding: 2rem 0;
 }
 
 .btn{
@@ -96,10 +122,20 @@ p{
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 0 2rem;
+    padding: 0 12rem;
     /* Overlay */
     position: absolute;
-    top: 60;
+    top: 0;
     left: 0;
     background-color:rgba(0,0,0,0.4);
+}
+
+/* Section:What We Do */
+.items{
+    display: flex;
+}
+
+.item{
+    flex: 1;
+    text-align: center;
 }
