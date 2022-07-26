@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 
 *{
@@ -34,6 +34,20 @@ p{
     color: #93cb52;
 }
 
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background:#333;
+    color: #fff;
+}
+
+.bg-primary{
+    background: #93cb52;
+    color:#fff;
+
+}
 .l-heading{
     font-size: 4rem;
     margin-bottom: 0.75rem;
@@ -56,8 +70,17 @@ p{
 .py-2{
     padding: 2rem 0;
 }
-.py-1{
-    padding: 2rem 0;
+.py-3{
+    padding: 3rem 0;
+}
+.p-1{
+    padding: 1.5rem ;
+}
+.p-2{
+    padding: 2rem ;
+}
+.p-3{
+    padding: 3rem ;
 }
 
 .btn{
@@ -76,7 +99,16 @@ p{
 .btn-dark{
     background: #333;
     color: #fff;
+}
 
+.list{
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
 }
 /* Navbar */
 #navbar{
@@ -125,17 +157,79 @@ p{
     padding: 0 12rem;
     /* Overlay */
     position: absolute;
-    top: 0;
+    top: 65px;
     left: 0;
+    bottom: -1;
     background-color:rgba(0,0,0,0.4);
 }
+/* box shadow css */
 
 /* Section:What We Do */
-.items{
+#what .items{
+    display: flex;
+    padding: 1rem;
+    
+}
+
+#what .items .item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+#what .items .item i{
+ background: #93cb52;
+ padding: 1rem;
+ border-radius: 50%;
+ margin-bottom: 1rem;
+ 
+}
+
+/* Who We Are */
+#who{
     display: flex;
 }
 
-.item{
+#who div{
     flex: 1;
-    text-align: center;
+    flex-basis: 50%;
+}
+
+#who .who-img{
+    background: url(./people.jpg) no-repeat center center/cover;
+}
+
+/* Section: Clients */
+#clients .items{
+    display: flex;
+}
+
+#clients .items img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+/* Section:Contact */
+#contact{
+    display: flex;
+}
+
+#contact .map #contact .contact-form{
+    flex: 1;
+}
+
+#contact .contact-form .form-group{
+    margin: 0.75rem;
+}
+
+#contact .contact-form label{
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 100%;
+    padding:0.5rem ;
 }
